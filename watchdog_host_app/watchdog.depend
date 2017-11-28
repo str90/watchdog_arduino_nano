@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1508168116 source:d:\develop\c++\watchdog_nano\watchdog\serialport.cpp
+	"SerialPort.h"
+
+1508168098 d:\develop\c++\watchdog_nano\watchdog\serialport.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1508519127 source:d:\develop\c++\watchdog_nano\watchdog\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SerialPort.h"
+	<fstream>
+
+1508168116 source:c:\users\ababi\onedrive\dev\c++\watchdog_nano\watchdog\serialport.cpp
+	"SerialPort.h"
+
+1508168098 c:\users\ababi\onedrive\dev\c++\watchdog_nano\watchdog\serialport.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1508495223 source:c:\users\ababi\onedrive\dev\c++\watchdog_nano\watchdog\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"SerialPort.h"
+
