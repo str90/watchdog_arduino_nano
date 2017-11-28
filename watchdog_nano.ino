@@ -5,7 +5,7 @@ boolean connEstFlag = false;
 boolean rebootFlag = false;
 boolean pwrFlag = false;
 
-const int connEstSend = 1986;
+String connEstSend = "1460";
 String uartInput;
 const unsigned long etalonTime = 20000000;
 unsigned long idleTime = 0;
@@ -30,8 +30,8 @@ void setup() {
 
   Serial.begin(9600);
   while(connEstFlag == false) {
-    Serial.println(connEstSend);
-    delay(300);
+    Serial.print(connEstSend);
+    delay(1200);
     if(Serial.available() > 0) {
       uartInput = Serial.readStringUntil('\n');
       if(uartInput.equals("PC")) {
@@ -49,8 +49,8 @@ void loop() {
     pwrFlag = false;
     rebootTime = millis();
     while(connEstFlag == false) {
-      Serial.println(connEstSend);
-      delay(300);
+      Serial.print(connEstSend);
+      delay(1000);
       if(Serial.available() > 0) {
         uartInput = Serial.readStringUntil('\n');
         if(uartInput.equals("PC")) {
