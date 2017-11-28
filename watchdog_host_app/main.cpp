@@ -63,7 +63,6 @@ int main() {
                 comPort = string(com_port_buffer);
                 break;
             }
-            if(hasRead > 0) puts(incomingData);
         }
     }
     }
